@@ -1,0 +1,34 @@
+Products
+---
+
+All Product API
+
+Method: GET
+Route: /products
+
+Unique Product
+
+Method: GET
+Route: /product/{id}
+
+Create Product
+
+Method: POST
+Route: /products
+
+Update a Product
+
+Method: PUT / PATCH
+Route: /products
+
+Delete a Product
+
+Method: DELETE 
+ROute: /product/{id}
+
+
+Update multiProduct
+
+Method: PUT / PATCH
+Route: /products/multi
+Body: {id1,id2}
